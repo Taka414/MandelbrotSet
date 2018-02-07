@@ -21,8 +21,7 @@ namespace Taka.Sets.Mandelbort
             }
 
             // とりあえずグレースケール
-
-            double cStep = ((double)max / (double)(byte.MaxValue / 2.0));
+            double cStep = byte.MaxValue / max;
 
             int baseColor = (int)(cStep * n);
 

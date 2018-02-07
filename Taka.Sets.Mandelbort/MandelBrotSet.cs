@@ -40,7 +40,7 @@ namespace Taka.Sets.Mandelbort
             this.YS = -1.2;
             this.YE = 1.2;
 
-            this.MaxAmount = 100;
+            this.MaxAmount = 15;
 
             this.ResetCondition();
         }
