@@ -26,6 +26,9 @@ namespace Taka.Sets.Mandelbort
             int baseColor = (int)(cStep * n);
 
             return Color.FromRgb((byte)baseColor, (byte)baseColor, (byte)baseColor);
+
+            // 有害そうな色合いになる式
+            // return Color.FromRgb((byte)baseColor, (byte)((baseColor % 8) * 8 + 1), (byte)((baseColor % 16) * 16 + 1));
         }
     }
 }
